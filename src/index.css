@@ -1,4 +1,5 @@
 body {
+  background-image: url('https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a15757bf1893a95_61.%20Lavender.jpg');
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -7,7 +8,71 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container {
+
+}
+
+.grid {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 418px;
+  margin-top: 150px;
+  vertical-align:middle;
+  text-align: center;
+  height: 100px;
+}
+.grid-item {
+  border: solid 1px black;
+  text-align: center;
+  border-radius: 0px 0px 3px 3px;
+}
+.inputField {
+  height: 200px;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 470px;
+  border: 1px solid black;
+  width: 700px;
+  vertical-align:middle;
+  text-align: center;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 600px;
+  height: 30px;
+  font-size: 20px;
+}
+h1, p {
+  text-align: center;
+}
+button {
+  margin-left: 0px;
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: darkorange;
+  color: black;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.question {
+  text-align: center;
+  background-color: aquamarine;
+}
+.answer {
+  text-align: center;
+  background-color: blue;
 }
